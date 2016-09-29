@@ -25,3 +25,7 @@ body {
   display: block;
   width: 100%;
 }
+
+html {
+  font-family: Open-Sans, sans-serif;
+}

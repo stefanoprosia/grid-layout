@@ -5,18 +5,26 @@
   <title>grid-layout</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <img src="images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656.jpg" alt="">
-  <h1>The Seven Wonders of the Ancient World</h1>
-  <p>Remarkable contrustions of classical antiquity almost completely lost in time.</p>
-  <p>Come exlpore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
+  <div class="grid">
+    <div class="unit">
+      <img class="img-flex" src="images/maerten-van-heemskerck-panorama-with-the-abduction-of-helen-amidst-the-wonders-of-the-ancient-world-walters-37656.jpg" alt="">
+    </div>
+    <div class="unit">
+      <h1>The Seven Wonders of the Ancient World</h1>
+      <p>Remarkable contrustions of classical antiquity almost completely lost in time.</p>
+      <p>Come exlpore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
+    </div>
 
   <figure>
-    <img src="images/temple-of-artemis.jpg" alt="">
-    <figcaption><h2>Temple of Artemis</h2></figcaption>
+    <img class="img-flex" src="images/temple-of-artemis.jpg" alt="">
+    <figcaption>
+      <h2>Temple of Artemis</h2>
+    </figcaption>
+
   </figure>
 
     <dl>
@@ -29,8 +37,10 @@
     </dl>
 
   <figure>
-    <img src="images/colossus-of-rhodes.jpg" alt="">
-    <figcaption><h2>Colossus of Rhodes</h2></figcaption>
+    <img class="img-flex" src="images/colossus-of-rhodes.jpg" alt="">
+    <figcaption>
+      <h2>Colossus of Rhodes</h2>
+    </figcaption>
   </figure>
 
     <dl>
@@ -43,8 +53,10 @@
     </dl>
 
   <figure>
-    <img src="images/hanging-gardens-of-babylon.jpg" alt="">
-    <figcaption><h2>Hanging Gardens of Babylon</h2></figcaption>
+    <img class="img-flex" src="images/hanging-gardens-of-babylon.jpg" alt="">
+    <figcaption>
+      <h2>Hanging Gardens of Babylon</h2>
+    </figcaption>
   </figure>
 
     <dl>
@@ -55,6 +67,7 @@
       <dt>Location:</dt>
       <dd>Nineveh, Iraq</dd>
     </dl>
+  </div>
 
 
 </body>
